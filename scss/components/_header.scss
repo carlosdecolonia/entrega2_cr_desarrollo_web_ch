@@ -1,36 +1,117 @@
-.header-index{
-    div{
-        .navbar{
-            .container-fluid{
-                .navbar-brand{
+.header-index {
+	width: 100%;
+	height: 600px;
+	background: linear-gradient(to right,
+			hsla(340, 95%, 70%, 0.459),
+			hsla(317, 45%, 52%, 0.664)),
+		url(../img/portada.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
 
-                }
-                .navbar-toggler{
-                    .navbar-toggler-icon{
+	div {
 
-                    }
-                }
-                .collapse{
-                    .menu-color{
-                        .navbar-nav{
-                            .nav-item{
-                                .nav-link {
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding-top: 10px;
+			padding-left: 10%;
+			padding-right: 10%;
 
-                                }
-                            }
-                            .dropdown-menu{
-                                li{
-                                    .dropdown-item{
-                                        
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
+			.container-fluid {
 
-    }
+				.navbar-brand {
 
+					.logo {
+						width: 150px;
+					}
+				}
+
+				.navbar-toggler {
+
+					.navbar-toggler-icon {
+						color: white;
+					}
+				}
+
+				.collapse {
+
+					.menu-color {
+
+						.navbar-nav {
+
+							.nav-item {
+								list-style-type: none;
+								display: inline-block;
+								padding: 10px 10px;
+
+								.nav-link {
+									color: white;
+									text-decoration: none;
+									font-weight: bold;
+									/* sobreescribe nav-link de booststrap */
+									color: #642a73;
+									font-weight: bold;
+								}
+
+								&:hover {
+									text-decoration: underline;
+									color: #642a73;
+								}
+
+								&:active {
+									color: #642a73;
+								}
+
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.hero {
+		display: flex;
+		height: 430px;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+
+		.titulo-fondo {
+
+			h1 {
+				font-size: 50px;
+				color: #fff;
+				font-family: 'Roboto', sans-serif;
+			}
+
+			h2 {
+				font-size: 50px;
+				color: #fff;
+				padding: 20px;
+			}
+		}
+
+		.btn {
+			/*sobreescribe la clase btn-primary de bootstrap*/
+			background-color: #642a73 !important;
+			border: 1px solid #642a73 !important;
+
+			/*sobreescribe la clase btn-primary de bootstrap*/
+			&:hover {
+				background-color: blueviolet !important;
+				border: 1px solid blueviolet !important;
+			}
+		}
+	}
+
+	.wave {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
 }
