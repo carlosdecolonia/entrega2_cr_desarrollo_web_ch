@@ -5,18 +5,36 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!--KEYWORDS, ideal 18, mínimo 8-->
+  <meta name="keywords" content="patitas, patitas uy, perro, gato, perrito, gatito, animales, adopción, adopción responsable, mascota, abandonado">
+  <!--DESCRIPTION. Entre 70 a 320 caracteres, ideal 180-->
+<meta name="description" content="Busca aquí tu mascota ideal. Adopta una mascota y salva una vida">
+<!--PROTOCOLO OPEN GRAPH-->
+<!--type-->
+<meta property="og:type" content="Web site">
+<!--title-->
+<meta property="og:title" content="Sitio para adoptar mascotas y rescatar animales perdidos">
+<!--URTL-->
+<meta property="og:url" content="https://...">
+<!--image-->
+<meta property="og:image" content="https://...">
+<meta property="og:description" content="Busca aquí tu mascota ideal. Adopta una mascota y salva una vida">
   <title>Página web Patitas.uy</title>
-  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
   <!-- link booststrap -->
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <!-- link css -->
+<<<<<<< HEAD
   <link rel="stylesheet" href="css/style.css" />
+=======
+  <link rel="stylesheet" href="./css/style.css" />
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
 </head>
 
 <body>
 
-  <header>
+  <header class="header-index">
 
     <div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -77,136 +95,149 @@
   </header>
 
   <main>
+
     <section class="contenedor adopcion-responsable">
-      <h2 class="titulo">Adopción responsable</h2>
-      <div class="contenedor-adopcion-responsable">
-        <img src="img/hero.jpg" alt="adopcion-responsable" class="imagen-adopcion-responsable" />
-        <div class="contenido-textos">
-          <h3><span>1</span>Revisa los requisitos</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-            veniam eius aspernatur ad consequuntur aperiam minima sed dicta
-            odit numquam sapiente quam eum, architecto animi pariatur, velit
-            doloribus laboriosam ut.
-          </p>
-          <h3><span>2</span>Elige tu mascota</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-            veniam eius aspernatur ad consequuntur aperiam minima sed dicta
-            odit numquam sapiente quam eum, architecto animi pariatur, velit
-            doloribus laboriosam ut.
-          </p>
-        </div>
+      <div class="a-link">
+        <h2 class="titulo">Adopción responsable</h2>
       </div>
+
+      <a href="./pages/adoptar.html" id="a-link">
+        <div class="contenedor-adopcion-responsable">
+          <img src="img/hero.jpg" alt="adopcion-responsable" class="imagen-adopcion-responsable" />
+          <div class="contenido-textos">
+            <h3><span>1</span>Revisa los requisitos</h3>
+            <p>
+              Verifica que cumplas con estos 5 requisitos para poder adoptar una mascota:
+              Como solicitante debes tener al menos 18 años de edad.
+              La vivienda tiene que ser adecuada para la mascota.
+              Entra para terminar de ver los requisitos...
+            </p>
+            <h3><span>2</span>Elige tu mascota</h3>
+            <p>
+              Hay muchos factores a considerar al elegir una mascota para adoptar.
+              Primero, es importante considerar tu estilo de vida y horario de disponibilidad.
+              Por ejemplo, si trabajas largas horas fuera de casa, un perro que requiere mucha atención y ejercicio
+              puede no ser la mejor opción para ti.
+            </p>
+          </div>
+        </div>
+      </a>
     </section><!-- fin de section class="contenedor adopcion-responsable" -->
+
+
 
     <section class="perdidos">
 
       <div class="contenedor">
         <h2 class="titulo">Perdidos</h2>
+        <a href="./pages/perdidos.html" id="a-link">
 
-        <div class="galeria-perdidos">
+          <div class="galeria-perdidos">
 
-          <div class="imagen-perdidos">
-            <img src="img/img1.jpg" alt="mascota1" />
-            <div class="hover-galeria">
-              <img src="img/icono1.png" alt="icono-mascota" />
-              <p>Ver más...</p>
+            <div class="imagen-perdidos">
+              <img src="img/img1.jpg" alt="mascota1" />
+              <div class="hover-galeria">
+                <img src="img/icono1.png" alt="icono-mascota" />
+                <p>Ver más...</p>
+              </div>
+            </div>
+
+            <div class="imagen-perdidos">
+              <img src="img/img2.jpg" alt="mascota2" />
+              <div class="hover-galeria">
+                <img src="img/icono1.png" alt="icono-mascota" />
+                <p>Ver más...</p>
+              </div>
+            </div>
+
+            <div class="imagen-perdidos">
+              <img src="img/img3.jpg" alt="mascota3" />
+              <div class="hover-galeria">
+                <img src="img/icono1.png" alt="icono-mascota" />
+                <p>Ver más...</p>
+              </div>
+            </div>
+
+            <div class="imagen-perdidos">
+              <img src="img/img4.jpg" alt="mascota4" />
+              <div class="hover-galeria">
+                <img src="img/icono1.png" alt="icono-mascota" />
+                <p>Ver más...</p>
+              </div>
+            </div>
+
+            <div class="imagen-perdidos">
+              <img src="img/img5.jpg" alt="mascota5" />
+              <div class="hover-galeria">
+                <img src="img/icono1.png" alt="icono-mascota" />
+                <p>Ver más...</p>
+              </div>
+            </div>
+
+            <div class="imagen-perdidos">
+              <img src="img/img6.jpg" alt="mascota6" />
+              <div class="hover-galeria">
+                <img src="img/icono1.png" alt="icono-mascota" />
+                <p>Ver más...</p>
+              </div>
+            </div>
+
+            <div class="imagen-perdidos">
+              <img src="img/img7.jpg" alt="mascota7" />
+              <div class="hover-galeria">
+                <img src="img/icono1.png" alt="icono-mascota" />
+                <p>Ver más...</p>
+              </div>
+            </div>
+
+            <div class="imagen-perdidos">
+              <img src="img/img8.jpg" alt="mascota8" />
+              <div class="hover-galeria">
+                <img src="img/icono1.png" alt="icono-mascota" />
+                <p>Ver más...</p>
+              </div>
             </div>
           </div>
-
-          <div class="imagen-perdidos">
-            <img src="img/img2.jpg" alt="mascota2" />
-            <div class="hover-galeria">
-              <img src="img/icono1.png" alt="icono-mascota" />
-              <p>Ver más...</p>
-            </div>
-          </div>
-
-          <div class="imagen-perdidos">
-            <img src="img/img3.jpg" alt="mascota3" />
-            <div class="hover-galeria">
-              <img src="img/icono1.png" alt="icono-mascota" />
-              <p>Ver más...</p>
-            </div>
-          </div>
-
-          <div class="imagen-perdidos">
-            <img src="img/img4.jpg" alt="mascota4" />
-            <div class="hover-galeria">
-              <img src="img/icono1.png" alt="icono-mascota" />
-              <p>Ver más...</p>
-            </div>
-          </div>
-
-          <div class="imagen-perdidos">
-            <img src="img/img5.jpg" alt="mascota5" />
-            <div class="hover-galeria">
-              <img src="img/icono1.png" alt="icono-mascota" />
-              <p>Ver más...</p>
-            </div>
-          </div>
-
-          <div class="imagen-perdidos">
-            <img src="img/img6.jpg" alt="mascota6" />
-            <div class="hover-galeria">
-              <img src="img/icono1.png" alt="icono-mascota" />
-              <p>Ver más...</p>
-            </div>
-          </div>
-
-          <div class="imagen-perdidos">
-            <img src="img/img7.jpg" alt="mascota7" />
-            <div class="hover-galeria">
-              <img src="img/icono1.png" alt="icono-mascota" />
-              <p>Ver más...</p>
-            </div>
-          </div>
-
-          <div class="imagen-perdidos">
-            <img src="img/img8.jpg" alt="mascota8" />
-            <div class="hover-galeria">
-              <img src="img/icono1.png" alt="icono-mascota" />
-              <p>Ver más...</p>
-            </div>
-          </div>
-
-        </div>
-
+        </a>
       </div>
 
     </section><!-- fin de section class="perdidos" -->
+    </a>
+
 
     <section class="adoptantes contenedor">
       <h2 class="titulo">Testimonios de adoptantes</h2>
-      <div class="cards-custom">
-        <div class="card-custom">
-          <img src="img/persona1.jpg" alt="persona1" />
-          <div class="contenido-texto-card">
-            <h4>Lara</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-              sapiente!
-            </p>
-            <div class="more">
-              <p>more...</p>
+      <a href="./pages/adoptar.html" id="a-link">
+        <div class="cards-custom">
+          <div class="card-custom">
+            <img src="img/persona1.jpg" alt="persona1" />
+            <div class="contenido-texto-card">
+              <h4>Lara</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+                sapiente!
+              </p>
+              <div class="more">
+                <p>more...</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-custom">
+            <img src="img/persona2.jpg" alt="persona1" />
+            <div class="contenido-texto-card">
+              <h4>Tamara</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+                sapiente!
+              </p>
+              <div class="more">
+                <p>more...</p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card-custom">
-          <img src="img/persona2.jpg" alt="persona1" />
-          <div class="contenido-texto-card">
-            <h4>Tamara</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-              sapiente!
-            </p>
-            <div class="more">
-              <p>more...</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      </a>
+
     </section>
     <section class="como-ayudar">
       <div class="contenedor">

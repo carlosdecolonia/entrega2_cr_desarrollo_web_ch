@@ -1,125 +1,186 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Página web Patitas.uy</title>
-    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
-    <!-- link booststrap -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> 
-    <!-- link css -->
-    <link rel="stylesheet" href="../css/estilos.css" />
-  </head>
-  
-  <body>
-  
-    <header>
-  
-      <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="../img/logo_fondo_FFFFFF.png" alt="logo" class="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <div class="menu-color">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Adoptar</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/perdidos.html">Perdidos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="../pages/testimonios.html">Testimonios</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      Cómo ayudar
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="../pages/como_ayudar.html">Dona alimentos</a></li>
-                      <li><a class="dropdown-item" href="../pages/como_ayudar.html">E-shop</a></li>
-                      <li><a class="dropdown-item" href="../pages/como_ayudar.html">Denuncia maltrato</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div><!-- fin de div menu-color -->
-            </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Página web Patitas.uy</title>
+  <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+  <!-- link booststrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- link css -->
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+
+  <header class="header-adoptar">
+    <div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../img/logo_fondo_FFFFFF.png" alt="logo" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="menu-color">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item" active>
+                  <a class="nav-link" href="#">Adoptar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./perdidos.html">Perdidos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./testimonios.html">Testimonios</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Cómo ayudar
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./como_ayudar.html">Dona alimentos</a></li>
+                    <li><a class="dropdown-item" href="./como_ayudar.html">E-shop</a></li>
+                    <li><a class="dropdown-item" href="./como_ayudar.html">Denuncia maltrato</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- fin de div menu-color -->
           </div>
-        </nav><!-- fin de nav -->
-      </div>
-  
-      <section class="hero">
-        <div class="titulo-fondo">
-          <h1>Adopta una mascota y cambia tu vida!</h1>
-          <h2>Puedes hacerlo.</h2>
         </div>
-        <a class="btn btn-primary" href="./pages/adoptar.html">Quiero adoptar!</a>
-      </section><!-- fin de section class="hero" -->
-  
-      <div class="wave" style="height: 150px; overflow: hidden">
-        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
-          <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-            style="stroke: none; fill: #fff"></path>
-        </svg>
+      </nav><!-- fin de nav -->
+    </div>
+
+    <section class="hero">
+      <div class="titulo-fondo">
+        <h1>Adopta una mascota y cambia tu vida!</h1>
+        <h2>Puedes hacerlo.</h2>
       </div>
-    </header>
+      <a class="btn btn-primary" href="./adoptar.html">Quiero adoptar!</a>
+    </section><!-- fin de section class="hero" -->
 
-    <main>
+  </header>
 
-      <section class="contenedor adopcion-responsable">
-        <h2 class="titulo">Adopción responsable</h2>
+  <main>
+    <!-- comienzo de section class="contenedor adopcion-responsable"-->
+    <section class="contenedor adopcion-responsable">
+      </div><!-- comienzo de div class="container-adopcion-responsable" -->
+      <div class="container-adopcion-responsable">
+        <!-- fin de div class="box" -->
+        <div class="box">
+          <h2 class="titulo">Adopción responsable</h2>
 
-        <div class="contenedor-adopcion-responsable">
-          <img src="../img/hero.jpg" alt="adopcion-responsable" class="imagen-adopcion-responsable" />
-          <div class="contenido-textos">
-            <h3><span>1</span>Revisa los requisitos</h3>
+          <img src="../img/hero.jpg" alt="adopcion-responsable" id="imagen-adopcion-adoptar" />
+
+          <div class="adoptar-contenido-textos">
+            <h3 class="titulo">Revisa los requisitos</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              veniam eius aspernatur ad consequuntur aperiam minima sed dicta
-              odit numquam sapiente quam eum, architecto animi pariatur, velit
-              doloribus laboriosam ut.
+              Verifica que cumplas con estos 5 requisitos para poder adoptar una mascota:
             </p>
-            <h3><span>2</span>Elige tu mascota</h3>
+            <ul>
+              <li>Como solicitante debes tener al menos 18 años de edad para adoptar una
+                mascota.
+              </li>
+              <li>La vivienda tiene que ser adecuada para la mascota que se está
+                adoptando. Se sugiere que tenga un jardín o una área para que la
+                mascota pueda correr.
+              </li>
+              <li>Se te pedirá una referencias, por ejemplo de un vecino o un veterinario,
+                para verificar que has tenido éxito con mascotas en el pasado.</li>
+              <li>Haremos una verificación de antecedentes para
+                asegurarnos de que no tienes antecedentes de abuso o negligencia con animales.</li>
+              <li>Finalmente, es probable que se requiera que firmes un contrato de adopción, que
+                establecerá las responsabilidades y expectativas de ambas partes.</li>
+            </ul>
+
+          </div>
+
+          <div class="adoptar-contenido-textos">
+            <h3 class="titulo">Elige tu mascota</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              veniam eius aspernatur ad consequuntur aperiam minima sed dicta
-              odit numquam sapiente quam eum, architecto animi pariatur, velit
-              doloribus laboriosam ut.
+              Adoptar una mascota es una gran responsabilidad y una decisión importante. Aquí hay algunos consejos para
+              ayudarte a elegir la mascota perfecta para ti:
+            </p>
+            <p>
+              Evalúa tus necesidades: Considera tus horarios, espacio disponible en casa y tu presupuesto antes de
+              elegir una mascota. Algunas mascotas requieren más atención y cuidados que otras.
+            </p>
+            <p>
+              Considera el tamaño: El tamaño de la mascota que elijas dependerá de la cantidad de espacio que tengas
+              disponible en casa y de la cantidad de tiempo que puedas dedicarle.
+            </p>
+            <p>
+              Elige una raza o tipo de mascota que se adapte a tu estilo de vida: Algunas mascotas son más activas que
+              otras y requieren más ejercicio. Si eres una persona muy activa, un perro de trabajo o un gato de raza
+              puede ser una buena opción.
+            </p>
+            <p>
+              Considera tus preferencias personales: ¿Quieres una mascota de compañía o un animal de compañía? ¿Quieres
+              una mascota que sea fácil de entrenar o que tenga una personalidad fuerte y desafiante?
+            </p>
+            <p>
+              Investiga sobre la raza o tipo de mascota que te interesa: Lee sobre la historia, la personalidad y los
+              requisitos de cuidado de la mascota que te interesa adoptar.
+            </p>
+            <p>
+              Visita un refugio de animales o un criador responsable: Si has decidido adoptar una mascota, visite un
+              refugio de animales o un criador responsable para conocer a los animales disponibles. Es importante
+              asegurarte de que la mascota que adoptes tenga un comportamiento saludable y que no haya sido maltratada.
+            </p>
+            <p>
+              Lleva a tu familia o compañeros de vida contigo: Si vives con otras personas, es importante que todos
+              estén de acuerdo con la decisión de adoptar una mascota y que conozcan a la mascota antes de llevarla a
+              casa.
+            </p>
+            <p>
+              Haz una lista de suministros necesarios: Antes de llevar a tu mascota a casa, asegúrate de tener todos los
+              suministros necesarios, como una caja de arena para gatos, un collar con placa de identificación, una
+              correa para perros, etc.
+            </p>
+            <p>
+              Adoptar una mascota es una experiencia gratificante y puede mejorar tu vida de muchas maneras. Sin
+              embargo, es importante tomarse el tiempo necesario para elegir una mascota que se adapte a tus necesidades
+              y estilo de vida. Con un poco de investigación y preparación, encontrarás a la mascota perfecta para ti.
             </p>
           </div>
-        </div><!-- fin de div class="contenedor-adopcion-responsable" --> 
-
-      </section><!-- fin de section class="contenedor adopcion-responsable" --> 
-
-    </main>
-
-    <footer>
-      <div class="contenedor-footer">
-        <div class="contacto-footer">
-          <img src="../img/whatsapp.png" alt="icono-whatsapp" />
-          <p>098100508</p>
+          <div><a class="btn btn-primary" href="./como_ayudar.html">Quiero adoptar!</a></div>
+          <!-- fin de div class="box" -->
         </div>
-        <div class="contacto-footer">
-          <img src="../img/facebook.png" alt="icono-facebook" />
-          <p>#patitas/uy</p>
-        </div>
-        <div class="contacto-footer">
-          <img src="../img/instagram.png" alt="icono-instagram" />
-          <p>@patitasuy</p>
-        </div>
+      </div><!-- fin de div class="container-adopcion-responsable" -->
+
+    </section><!-- fin de section class="contenedor adopcion-responsable" -->
+
+  </main>
+
+  <footer>
+    <div class="contenedor-footer">
+      <div class="contacto-footer">
+        <img src="../img/whatsapp.png" alt="icono-whatsapp" />
+        <p>098100508</p>
       </div>
-      <h2 class="titulo-final">&copy; Carlos Rodriguez | Patitas.uy</h2>
-    </footer>
-  </body>
+      <div class="contacto-footer">
+        <img src="../img/facebook.png" alt="icono-facebook" />
+        <p>#patitas/uy</p>
+      </div>
+      <div class="contacto-footer">
+        <img src="../img/instagram.png" alt="icono-instagram" />
+        <p>@patitasuy</p>
+      </div>
+    </div>
+    <h2 class="titulo-final">&copy; Carlos Rodriguez | Patitas.uy</h2>
+  </footer>
+  <!-- link script js bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

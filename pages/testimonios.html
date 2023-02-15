@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+<<<<<<< HEAD
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,91 +8,206 @@
     <title>Página web Patitas.uy</title>
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="../css/style.css" />
+=======
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
 
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Página web Patitas.uy</title>
+  <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
+  <!-- link booststrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- link css -->
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
 
-  <body>
-    <header>
-      <div>
-        <nav>
-          <h2 class="logo">Patitas<span>.uy</span></h2>
-          <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="../pages/adoptar.html">Adoptar</a></li>
-            <li><a href="../pages/perdidos.html">Perdidos</a></li>
-            <li><a class="active" href="#">Testimonios</a></li>
-            <li><a href="../pages/como_ayudar.html">Cómo ayudar</a></li>
-          </ul>
-        </nav>
-      </div>
+<body>
 
-      <section class="hero">
+  <header class="header-testimonios">
+    <div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../img/logo_fondo_FFFFFF.png" alt="logo" class="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="menu-color">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./adoptar.html">Adoptar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./perdidos.html">Perdidos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Testimonios</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Cómo ayudar
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./como_ayudar.html">Dona alimentos</a></li>
+                    <li><a class="dropdown-item" href="./como_ayudar.html">E-shop</a></li>
+                    <li><a class="dropdown-item" href="./como_ayudar.html">Denuncia maltrato</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- fin de div menu-color -->
+          </div>
+        </div>
+      </nav><!-- fin de nav -->
+    </div>
+
+    <section class="hero">
+      <div class="titulo-fondo">
         <h1>Adopta una mascota y cambia tu vida!</h1>
         <h2>Puedes hacerlo.</h2>
-        <a href="./adoptar.html"><button>Quiero adoptar!</button></a>
-      </section>
-      <div class="wave" style="height: 150px; overflow: hidden">
-        <svg
-          viewBox="0 0 500 150"
-          preserveAspectRatio="none"
-          style="height: 100%; width: 100%"
-        >
-          <path
-            d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-            style="stroke: none; fill: #fff"
-          ></path>
+      </div>
+      <a class="btn btn-primary" href="./adoptar.html">Quiero adoptar!</a>
+    </section><!-- fin de section class="hero" -->
+
+    <!--<div class="wave" style="height: 150px; overflow: hidden">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+          <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #fff"></path>
         </svg>
-      </div>
-    </header>
-    <main>
-      <section class="adoptantes contenedor">
-        <h2 class="titulo">Testimonios de adoptantes</h2>
-        <div class="cards">
-          <div class="card">
-            <img src="../img/persona1.jpg" alt="persona1" />
-            <div class="contenido-texto-card">
-              <h4>Lara</h4>
+      </div>-->
+  </header>
+  <main>
+    <section class="adoptantes contenedor">
+      <h2 class="titulo">Testimonios de adoptantes</h2>
+      <div class="cards">
+        <div class="card2">
+          <img src="../img/persona1.jpg" alt="persona1" />
+          <div class="contenido-texto-card">
+            <h4 class="h4-testimonios">Lara</h4>
+            <div id="p-testimonios-parrafos">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-                sapiente!
+                "Hace seis meses que decidí adoptar un gatito y ha sido una de las mejores decisiones que he tomado en
+                mi
+                vida. Desde el momento en que lo vi en el refugio local, supe que él sería el compañero perfecto para
+                mí.
+                Yo estaba buscando un gatito amigable, juguetón y cariñoso para añadir a mi vida y él encajaba
+                perfectamente con mis expectativas.
               </p>
-              <div class="more">
-                <p>more...</p>
-              </div>
+              <p>
+                Desde el primer día en casa, mi gatito demostró ser un amor incondicional. Es tan juguetón y amoroso,
+                siempre está dispuesto a jugar y darme mimos. Me hace reír con sus payasadas y me brinda una gran
+                cantidad
+                de amor incondicional. Además, es muy inteligente y está aprendiendo rápidamente nuevos trucos y
+                cosas nuevas.
+              </p>
+              <p>
+                Tener un gatito ha mejorado mi estilo de vida de muchas maneras. Me obliga a salir de casa y hacer
+                juegos todos los días, lo que me ha ayudado a mantenerme en forma. También me ha ayudado a reducir el
+                estrés y la ansiedad, y a conocer a otras personas en el parque y en el vecindario que comparten mi amor
+                por los gatos.
+              </p>
+              <p>
+                Mi gato ha sido un excelente compañero en todas mis aventuras. Me acompaña en cada día, paseos en
+                coche y en viajes cortos. Es un amigo leal y siempre está dispuesto a brindar consuelo cuando lo
+                necesito.
+              </p>
+              <p>
+                Además, adoptar a mi gato ha sido una experiencia increíblemente gratificante. Me ha enseñado la
+                importancia del amor incondicional y me ha demostrado lo que significa ser un buen compañero y una dueña
+                responsable. Estoy muy agradecida de haberlo adoptado y de poder brindarle un hogar amoroso y seguro.
+              </p>
+              <p>
+                En resumen, tener a mi gato en mi vida ha sido una bendición y no puedo imaginar mi vida sin él.
+                Adoptar
+                un gato es una decisión importante, pero estoy segura de que cualquier persona que lo haga encontrará
+                un
+                compañero fiel y un amigo para toda la vida. ¡Lo recomiendo encarecidamente!"
+              </p>
             </div>
           </div>
-          <div class="card">
-            <img src="../img/persona2.jpg" alt="persona2" />
-            <div class="contenido-texto-card">
-              <h4>Tamara</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-                sapiente!
-              </p>
-              <div class="more">
-                <p>more...</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div class="contenedor-footer">
-        <div class="contacto-footer">
-          <img src="../img/whatsapp.png" alt="icono-whatsapp" />
-          <p>098100508</p>
-        </div>
-        <div class="contacto-footer">
-          <img src="../img/facebook.png" alt="icono-facebook" />
-          <p>#patitas/uy</p>
-        </div>
-        <div class="contacto-footer">
-          <img src="../img/instagram.png" alt="icono-instagram" />
-          <p>@patitasuy</p>
         </div>
       </div>
-      <h2 class="titulo-final">&copy; Carlos Rodriguez | Patitas.uy</h2>
-    </footer>
-  </body>
+      <div class="card2">
+        <img src="../img/persona2.jpg" alt="persona2" />
+        <div class="contenido-texto-card">
+          <h4 class="h4-testimonios">Tamara</h4>
+          <div id="p-testimonios-parrafos">
+            <p>Desde que adopté a mi perrito, mi vida ha cambiado de muchas maneras positivas. Al tener un compañero
+              leal y amoroso a mi lado, me siento menos sola y más amada. Además, caminar y jugar con él a diario ha
+              mejorado mi salud física y me ha mantenido activa.
+            </p>
+            <p>Mi perro también es un gran apoyo emocional para mí, siempre está ahí para consolarme y leer mis
+              emociones. Asumir la responsabilidad de cuidar a mi perro ha ayudado a mejorar mi disciplina y ha
+              aumentado mi sentido de propósito y satisfacción.
+            </p>
+            <p>Además, tener un perro también me ha enseñado valores importantes como la paciencia, la empatía y la
+              compasión. Ver cómo mi perro me ama incondicionalmente, sin importar mis errores o debilidades, me ha
+              inspirado a ser una persona más amable y compasiva con los demás.
+            </p>
+
+            <p>Otra forma en la que adoptar a mi perro ha cambiado mi vida es que me ha hecho más social. Conocí a
+              muchas personas interesantes en los parques y en la calle mientras caminaba con él, y he hecho nuevos
+              amigos gracias a mi compañero canino.
+            </p>
+
+            <p>Además, estar con mi perrito ha sido una experiencia increíblemente gratificante. Me ha enseñado la
+              importancia del amor incondicional y me ha demostrado lo que significa ser una buena compañera y una dueña
+              responsable. Estoy muy agradecida de haberla adoptado y de poder brindarle un hogar amoroso y seguro.
+            </p>
+            <p>
+              En resumen, tener a mi perrita en mi vida ha sido una bendición y no puedo imaginar mi vida sin ella.
+              Adoptar un perro es una decisión importante, pero estoy segura de que cualquier persona que lo haga
+              encontrará un compañero fiel y un amigo para toda la vida. ¡Lo recomiendo encarecidamente!"
+            </p>
+          </div>
+        </div>
+
+      </div>
+      </div>
+      </div>
+      <div class="mas-testimonios">
+        <p>Más testimonios...</p>
+      </div>
+    </section>
+    <section class="video">
+    <div><h2 class="titulo">Personas comprometidas</h2></div>
+      <div class="video-testimonio">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lMrZ5-KdRwA?controls=0"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="contenedor-footer">
+      <div class="contacto-footer">
+        <img src="../img/whatsapp.png" alt="icono-whatsapp" />
+        <p>098100508</p>
+      </div>
+      <div class="contacto-footer">
+        <img src="../img/facebook.png" alt="icono-facebook" />
+        <p>#patitas/uy</p>
+      </div>
+      <div class="contacto-footer">
+        <img src="../img/instagram.png" alt="icono-instagram" />
+        <p>@patitasuy</p>
+      </div>
+    </div>
+    <h2 class="titulo-final">&copy; Carlos Rodriguez | Patitas.uy</h2>
+  </footer>
+  <!-- link script js bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+  crossorigin="anonymous"></script>
+</body>
+
 </html>

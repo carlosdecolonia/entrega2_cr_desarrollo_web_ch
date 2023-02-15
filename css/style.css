@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@700&display=swap');
+=======
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@700&display=swap");
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
 
 * {
   margin: 0;
@@ -21,21 +25,110 @@ body {
 .titulo {
   color: #642a73;
   font-size: 30px;
+<<<<<<< HEAD
+=======
+  font-weight: 600;
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
   text-align: center;
   margin-bottom: 60px;
 }
 
 /* Cabecera */
 
+<<<<<<< HEAD
 header {
   width: 100%;
   height: 600px;
+=======
+.header-index {
+  width: 100%;
+  height: 600px;
+  /* background: #bc4e9c;*/
+  /* fallback for old browsers */
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
   background: linear-gradient(
       to right,
       hsla(340, 95%, 70%, 0.459),
       hsla(317, 45%, 52%, 0.664)
     ),
     url(../img/portada.jpg);
+<<<<<<< HEAD
+=======
+  /*background: url(../img/portada.jpg);*/
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.header-adoptar {
+  width: 100%;
+  height: 500px;
+  /* background: #bc4e9c;*/
+  /* fallback for old browsers */
+  background: linear-gradient(
+      to right,
+      hsla(340, 95%, 70%, 0.459),
+      hsla(317, 45%, 52%, 0.664)
+    ),
+    url(../img/portada-adoptar.jpg);
+  /*background: url(../img/portada.jpg);*/
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.header-perdidos {
+  width: 100%;
+  height: 500px;
+  /* background: #bc4e9c;*/
+  /* fallback for old browsers */
+  background: linear-gradient(
+      to right,
+      hsla(340, 95%, 70%, 0.459),
+      hsla(317, 45%, 52%, 0.664)
+    ),
+    url(../img/portada-perdidos.jpg);
+  /*background: url(../img/portada.jpg);*/
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.header-testimonios {
+  width: 100%;
+  height: 500px;
+  /* background: #bc4e9c;*/
+  /* fallback for old browsers */
+  background: linear-gradient(
+      to right,
+      hsla(340, 95%, 70%, 0.459),
+      hsla(317, 45%, 52%, 0.664)
+    ),
+    url(../img/portada-testimonios.jpg);
+  /*background: url(../img/portada.jpg);*/
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.header-como-ayudar {
+  width: 100%;
+  height: 500px;
+  /* background: #bc4e9c;*/
+  /* fallback for old browsers */
+  background: linear-gradient(
+      to right,
+      hsla(340, 95%, 70%, 0.459),
+      hsla(317, 45%, 52%, 0.664)
+    ),
+    url(../img/portada-como-ayudar.jpg);
+  /*background: url(../img/portada.jpg);*/
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -70,7 +163,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+<<<<<<< HEAD
   text-decoration: underline;
+=======
+  text-decoration: none;
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
   color: #642a73;
 }
 
@@ -79,7 +176,11 @@ nav ul li a:hover {
 }
 
 /* sobreescribe nav-link de booststrap */
+<<<<<<< HEAD
 .nav-link{
+=======
+.nav-link {
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
   color: #642a73;
   font-weight: bold;
 }
@@ -94,10 +195,26 @@ header .hero {
   text-align: center;
 }
 
+<<<<<<< HEAD
 .hero h1 {
   font-size: 50px;
   color: #fff;
   font-family: 'Roboto', sans-serif;
+=======
+/*.titulo-fondo{
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}*/
+
+.hero h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
 }
 
 .hero h2 {
@@ -122,6 +239,21 @@ header .hero {
   border: 1px solid blueviolet !important;
 }
 
+<<<<<<< HEAD
+=======
+#a-link {
+  text-decoration: none;
+}
+a {
+  color: black;
+  font-family: arial;
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
 /* Adopción responsable */
 
 main .adopcion-responsable {
@@ -131,10 +263,29 @@ main .adopcion-responsable {
 .contenedor-adopcion-responsable {
   display: flex;
   justify-content: space-evenly;
+<<<<<<< HEAD
 }
 
 .contenedor-adopcion-responsable img{
   width:50%;
+=======
+  margin-bottom: 100px;
+}
+
+.adoptantes contenedor{
+margin-bottom: 1000px;
+margin-top: 1000px;
+}
+
+.contenedor-adopcion-responsable img {
+  width: 50%;
+}
+
+#imagen-adopcion-adoptar {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 60px;
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
 }
 
 .imagen-adopcion-responsable {
@@ -169,6 +320,10 @@ main .adopcion-responsable {
   padding: 0px 0px 30px 15px;
   font-weight: 300;
   text-align: justify;
+<<<<<<< HEAD
+=======
+
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
 }
 
 /* Galeria */
@@ -189,6 +344,10 @@ main .adopcion-responsable {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+<<<<<<< HEAD
+=======
+  margin-bottom: 100px;
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
 }
 
 .imagen-perdidos {
@@ -238,6 +397,10 @@ main .adopcion-responsable {
 .cards-custom {
   display: flex;
   justify-content: space-evenly;
+<<<<<<< HEAD
+=======
+  margin-bottom: 100px;
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
 }
 
 .cards-custom .card-custom {
@@ -272,10 +435,23 @@ main .adopcion-responsable {
 }
 
 .-custom .card-custom > .contenido-texto-card p {
+<<<<<<< HEAD
   font-weight: 300;
   padding-top: 5px;
 }
 
+=======
+  padding-top: 5px;
+}
+
+#p-testimonios-parrafos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 40px;
+  text-align: justify;
+}
+
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
 .more {
   font-size: small;
   text-align: right;
@@ -384,6 +560,10 @@ label {
 /* footer */
 
 footer {
+<<<<<<< HEAD
+=======
+  /*background: #414141;*/
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
   background: #642a73;
   padding: 30px 0 20px 0;
   margin: auto;
@@ -451,10 +631,18 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
   }
 
   .contenedor-adopcion-responsable img{
     width:90%;
+=======
+    margin-bottom: 50px;
+  }
+
+  .contenedor-adopcion-responsable img {
+    width: 90%;
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
   }
 
   .adopcion-responsable .contenido-textos {
@@ -590,8 +778,25 @@ footer {
   .titulo-final {
     font-size: 14px;
   }
+<<<<<<< HEAD
 }
 
+=======
+
+  #p-testimonios-parrafos {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: justify;
+    font-size: small;
+  }
+
+  .contenedor-adopcion-responsable {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
 
 /* -- perdidos.html-- */
 
@@ -603,7 +808,13 @@ footer {
 }
 
 .card-perdidos {
+<<<<<<< HEAD
   background-color: #642a73;
+=======
+  /* background-color: #1c1b29; */
+  background-color: #642a73;
+  /* border-radius: 20px; */
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
 }
 .container-perdidos {
@@ -614,8 +825,26 @@ footer {
 img {
   width: 100%;
   display: block;
+<<<<<<< HEAD
 }
 
+=======
+  /* border-radius: 20px 20px 0 0; */
+}
+
+/*.container-perdidos::after{
+    content: "";
+    height:100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.0;
+
+}*/
+
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
 .details {
   padding: 20px 10px;
 }
@@ -635,3 +864,61 @@ img {
 }
 
 /*fin de perdidos.html*/
+<<<<<<< HEAD
+=======
+
+/*comienzo de testimonios.html*/
+.h4-testimonios {
+  margin-top: 15px;
+}
+
+.mas-testimonios {
+  font-size: medium;
+  text-align: right;
+}
+
+.card2 {
+  margin-top: 60px;
+}
+
+.mas-testimonios:hover {
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.video-testimonio {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  justify-content: center;
+  height: 100vh;  
+}
+
+iframe {
+  width: 60%;
+  height: 60%;
+}
+
+/*fin de testimonios.html*/
+
+/* comienzo de adoptar.html */
+
+.container-adopcion-responsable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.adoptar-contenido-textos {
+  font-weight: normal;
+  text-align: justify;
+  margin-bottom: 60px;
+}
+>>>>>>> d38d35b24b815705dc0c211f120b443aa59f1830
