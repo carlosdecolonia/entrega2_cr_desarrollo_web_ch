@@ -213,4 +213,184 @@ main {
   }
 }
 
+/* -- main perdidos.html-- */
 
+.perdidos {
+  .contenedor {
+    .titulo {
+    }
+
+    .cards-perdidos {
+      display: grid;
+      /* Aplicando css grid */
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      padding: 20px;
+      grid-gap: 40px;
+
+      .card-perdidos {
+        background-color: #642a73;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+
+        .container-perdidos {
+          position: relative;
+          clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+
+          img {
+            width: 100%;
+            display: block;
+          }
+        }
+
+        .details {
+          padding: 20px 10px;
+          h3 {
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 18px;
+            margin: 10px 0 15px 0;
+          }
+
+          p {
+            color: #a0a0a0;
+            font-size: 16px;
+            line-height: 30px;
+            font-weight: 400;
+          }
+        }
+      }
+      &:hover {
+        transition: transform 0.8s;
+        transform: scale(1.05);
+        position: relative;
+        cursor: pointer;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}
+
+/*fin de main perdidos.html*/
+
+/* main de Como ayudar */
+
+.formulario {
+  width: 800px;
+  margin: 5% auto;
+  h2 {
+  }
+
+  .form-area {
+    display: flex;
+    background-color: white;
+    padding: 1.9em;
+    .msg-area {
+      display: flex;
+      flex-direction: column;
+      order: 2;
+      label {
+      }
+
+      #msg {
+        flex: 1;
+        min-width: 18em;
+        background: transparent;
+        color: #642a73;
+        padding: 15px;
+      }
+    }
+
+    .details-area {
+      flex: 1;
+      order: 1;
+      margin-right: 2em;
+      label {
+        color: #642a73;
+        text-transform: uppercase;
+        line-height: 40px;
+      }
+
+      #name {
+        padding: 1em;
+        margin-bottom: 1em;
+        width: 100%;
+        background: transparent;
+        color: #642a73;
+      }
+
+      #lname {
+        padding: 1em;
+        margin-bottom: 1em;
+        width: 100%;
+        background: transparent;
+        color: #642a73;
+      }
+
+      #email {
+        padding: 1em;
+        margin-bottom: 1em;
+        width: 100%;
+        background: transparent;
+        color: #642a73;
+      }
+
+      .btn {
+        padding: 1em;
+        margin-bottom: 1em;
+        background: #642a73;
+        color: white;
+        border: 0;
+        padding: 15px 50px;
+        font-family: "roboto", sans serif;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+/* fin de main de Como ayudar */
+
+
+/* main de Adoptar */
+.contenedor { 
+
+	.container-adopcion-responsable { 
+
+		.box { 
+
+			.titulo { 
+
+			}
+
+			#imagen-adopcion-adoptar { 
+
+			}
+
+			.adoptar-contenido-textos { 
+
+				.titulo { 
+
+				}
+
+				p { 
+
+				}
+
+				ul { 
+
+					li { 
+
+					}
+				}
+			}
+
+			div { 
+
+				.btn { 
+
+				}
+			}
+		}
+	}
+}
+
+/* fin de main Adoptar */
